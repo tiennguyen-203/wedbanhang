@@ -1,0 +1,51 @@
+{%  extends 'Main/base.html' %}
+
+{% block content %} 
+{% load static%}
+<!-- breadcrumb-area start -->
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 text-center">
+                <h2 class="breadcrumb-title">Bài viết</h2>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- breadcrumb-area end -->
+<!-- Blog Area Start -->
+<div class="blog-grid pb-100px pt-100px main-blog-page single-blog-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 offset-lg-2">
+                <div class="blog-posts">
+                    <div class="single-blog-post blog-grid-post">
+                        <div class="blog-image single-blog">
+                            <img class="img-fluid h-auto border-radius-10px" src="{% static "assets/images/blog-image/anh10.jpg" %}" alt="blog" />
+                        </div>
+                        <div class="blog-post-content-inner mt-30px">
+                            <div class="blog-athor-date">
+                                <span class="blog-date"><i class="fa fa-calendar" aria-hidden="true"></i>05-05-2024</span>
+                                <span><a class="blog-author" href="blog-grid.html"><i class="fa fa-user" aria-hidden="true"></i> Nguyễn Đức Thắng</a></span>
+                            </div>
+                            <h4 class="blog-title">Nhân vật Hashibira Inosuke </h4>
+                            <p data-aos="fade-up">
+                                Hashibira Inosuke là một nhân vật trong bộ truyện “Kimetsu no Yaiba” và là một trong những thành viên của nhóm săn quỷ cùng với Tanjiro, Nezuko và Zenitsu.
+
+                                Inosuke là một chàng trai mạnh mẽ và dũng mãnh, luôn sống mạnh mẽ và quyết đoán. Anh ta có bản tính hoang dã và thích chiến đấu, thường xuyên mặc một bộ giáp từ những phần của quỷ mà anh ta đã giết để tạo ra vũ khí và bảo vệ bản thân.
+                                
+                                Mặc dù có vẻ ngoài hùng hổ và thô lỗ, Inosuke cũng có một bên tốt và thể hiện sự quan tâm đến đồng đội của mình, đặc biệt là đối với Tanjiro. Dù thường xuyên tranh cãi và gây rối, Inosuke vẫn là một phần không thể thiếu của nhóm và đã đóng góp vào nhiều trận chiến quan trọng trong cuộc phiêu lưu của họ.
+                                
+                                Một điểm đặc biệt của Inosuke là khả năng chiến đấu mạnh mẽ và linh hoạt, cũng như sự sáng tạo trong việc sử dụng vũ khí và kỹ năng chiến đấu. Mặc dù có tính cách cứng đầu và không chịu khuất phục, Inosuke cũng đã thể hiện sự tiến bộ trong việc làm việc nhóm và hợp tác với đồng đội của mình.
+                                
+                                Hashibira Inosuke là một nhân vật độc đáo và có sức hút trong “Kimetsu no Yaiba”, và tính cách mạnh mẽ và linh hoạt của anh ta đã thu hút sự yêu mến từ phía người hâm mộ.
+                            </p>
+                            
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blag Area End -->
+{% endblock %}

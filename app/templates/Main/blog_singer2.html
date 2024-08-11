@@ -1,0 +1,51 @@
+{%  extends 'Main/base.html' %}
+
+{% block content %} 
+{% load static%}
+<!-- breadcrumb-area start -->
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 text-center">
+                <h2 class="breadcrumb-title">Bài viết</h2>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- breadcrumb-area end -->
+<!-- Blog Area Start -->
+<div class="blog-grid pb-100px pt-100px main-blog-page single-blog-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 offset-lg-2">
+                <div class="blog-posts">
+                    <div class="single-blog-post blog-grid-post">
+                        <div class="blog-image single-blog">
+                            <img class="img-fluid h-auto border-radius-10px" src="{% static "assets/images/blog-image/anh12.jpg" %}" alt="blog" />
+                        </div>
+                        <div class="blog-post-content-inner mt-30px">
+                            <div class="blog-athor-date">
+                                <span class="blog-date"><i class="fa fa-calendar" aria-hidden="true"></i>05-05-2024</span>
+                                <span><a class="blog-author" href="blog-grid.html"><i class="fa fa-user" aria-hidden="true"></i> Nguyễn Văn Tiền</a></span>
+                            </div>
+                            <h4 class="blog-title">Nhân vật Kamado Tanjiro </h4>
+                            <p data-aos="fade-up">
+                                Tanjiro Kamado là nhân vật chính của bộ truyện “Kimetsu no Yaiba”, một chàng trai trẻ có trái tim nhân từ và ý chí mạnh mẽ. Dù phải đối mặt với nhiều gian khổ và thử thách, Tanjiro luôn giữ vững niềm tin và quyết tâm đi tìm con đường của mình.
+
+                                Ban đầu, Tanjiro là một cậu bé chăm chỉ, sống hòa thuận với gia đình trên núi. Cuộc sống của anh đảo lộn khi gia đình của mình bị tấn công bởi một thế lực đen tối, khiến mẹ và em gái Nezuko bị biến thành quỷ. Từ sự thương tổn đó, Tanjiro nảy ra quyết tâm trở thành một Dân chuyên săn quỷ để bảo vệ người dân và tìm cách chữa trị cho em gái của mình.
+                                
+                                Tính cách của Tanjiro được đánh giá cao bởi lòng kiên nhẫn, sự tôn trọng và lòng nhân ái. Anh ta luôn tôn trọng cả những kẻ đã mất tính người và tìm cách giúp đỡ họ. Mặc cho những khó khăn và tổn thương, Tanjiro không bao giờ từ bỏ hy vọng và luôn tìm cách để tiến lên phía trước.
+                                
+                                Một trong những yếu tố nổi bật nhất của nhân vật này là khả năng học hỏi và sự sáng tạo trong trận đấu. Tanjiro không chỉ dựa vào sức mạnh vật lý mà còn sử dụng trí thông minh và chiến thuật để đánh bại kẻ thù. Anh ta không ngừng nỗ lực để trở nên mạnh mẽ hơn, không chỉ vì bản thân mà còn vì sứ mệnh bảo vệ những người yếu đuối và bất hạnh.
+                                
+                                Với tình yêu sâu đậm đối với gia đình và lòng kiên định không khuất phục trước khó khăn, Tanjiro Kamado đã trở thành một biểu tượng của sức mạnh và lòng nhân ái trong cả cộng đồng fan hâm mộ “Kimetsu no Yaiba”.
+                            </p>
+                            
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blag Area End -->
+{% endblock %}

@@ -1,0 +1,51 @@
+{%  extends 'Main/base.html' %}
+
+{% block content %} 
+{% load static  %}
+ <!-- About section Start -->
+   <!-- breadcrumb-area start -->
+   <div class="breadcrumb-area">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 text-center">
+                <h2 class="breadcrumb-title">Giới thiệu</h2>
+                <!-- breadcrumb-list start -->
+                <ul class="breadcrumb-list">
+                    <li class="breadcrumb-item"><a href="{% url 'home'%}">Trang chủ</a></li>
+                    <li class="breadcrumb-item active">Giới thiệu</li>
+                </ul>
+                <!-- breadcrumb-list end -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- breadcrumb-area end -->
+<!-- About section Start -->
+<div class="about-area pt-100px">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="about-wrapper text-center">
+                    <div class="about-contant">
+                        <h2 class="title">
+                            <span>GIỚI THIỆU MOHINHKIMETSU </span>
+                            
+                        </h2>
+                        <p> Chào mừng bạn đến với cửa hàng chuyên cung cấp mô hình Kimetsu no Yaiba – một thiên đường dành cho những người hâm mộ đam mê bộ truyện tranh và anime nổi tiếng này! Tại đây, chúng tôi tự hào giới thiệu một bộ sưu tập đa dạng và phong phú của các mô hình, đảm bảo mang lại trải nghiệm tuyệt vời cho các fan của Kimetsu no Yaiba.
+
+                            Cửa hàng của chúng tôi mang đến sự đa dạng với các sản phẩm từ các nhân vật nổi tiếng như Tanjiro Kamado, Nezuko Kamado, Zenitsu Agatsuma, Inosuke Hashibira và nhiều nhân vật khác. Chất lượng của mỗi mô hình được đảm bảo cao cấp, với chi tiết tinh tế và chân thực, giúp tái tạo chính xác các đặc điểm nổi bật của nhân vật trong series.</p>
+                    </div>
+                    <div class="promo-video">
+                        <img src="{% static "assets/images/hero/inner-img/anh20.jpg" %}" alt="">
+                        <a href="https://www.youtube.com/watch?v=MzShJ1XyAhs" class="venobox overlay-box" data-vbtype="video"><span
+                            class="fa fa-play"><i class="ripple"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About section End -->
+<!-- About section End -->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+{% endblock%}
